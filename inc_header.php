@@ -4,7 +4,7 @@ include("koneksi.php");
 if (!isset($_SESSION['admin_username'])) {
     header("location:login.php");
 }
-print_r($_SESSION['admin_akses']);  
+// print_r($_SESSION['admin_akses']);  
 ?>
 
 <!doctype html>
